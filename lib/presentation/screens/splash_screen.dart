@@ -9,12 +9,14 @@ class SplashScreen extends StatefulWidget {
 
   @override
   State<SplashScreen> createState() => _SplashScreenState();
+
 }
 
 class _SplashScreenState extends State<SplashScreen> {
 
   @override
   void initState(){
+
     //TODO: implement initState
     super.initState();
 
@@ -30,9 +32,12 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Image(
-
-        image: AssetImage('assets/Group 560.png'),
+      body: Align(
+        alignment: Alignment.center,
+        child: Image(
+          height: 300,
+          image: AssetImage('assets/Group 560.png'),
+        ),
       ),
     );
   }
