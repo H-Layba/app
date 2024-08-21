@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'on_boarding_B.dart';
 
 class OnBoardingA extends StatefulWidget {
   const OnBoardingA({super.key});
@@ -76,7 +77,10 @@ class _OnBoardingAState extends State<OnBoardingA> {
                 height: 3,
               ),
               ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => OnBoardingB()),
+                    );
+                  },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xFFFFC1CC),
                     foregroundColor: Color(0xFFE4707E),

@@ -67,6 +67,8 @@ flutter:
      - assets/Frame 591.png
      - assets/Frame 592.png
      - assets/Frame 593.png
+     - assets/Group 578.png
+     - assets/Frame 582.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
